@@ -1,2 +1,10 @@
-package com.example.dependency_injection_task_3_sda;public class ListUtil {
+package com.example.dependency_injection_task_3_sda;
+
+import java.util.List;
+
+public class ListUtil {
+
+    public int sumElements(final List<Integer> ints) {
+        return ints.stream().reduce(0, Integer::sum);
+    }
 }

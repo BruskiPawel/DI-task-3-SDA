@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DependencyInjectionTask3SdaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DependencyInjectionTask3SdaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DependencyInjectionTask3SdaApplication.class, args);
+    }
 
 }
