@@ -14,7 +14,7 @@ public class BeanConfig {
         return new ListUtil();
     }
 
-    @Bean(name = "strungUtility")
+    @Bean(name = "stringUtility")
     public  StringUtil stringUtil() {
         return new StringUtil();
     }
